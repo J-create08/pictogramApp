@@ -13,6 +13,11 @@
 		2A77DDF9260D8CF300A992FE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A77DDF8260D8CF300A992FE /* Preview Assets.xcassets */; };
 		2A77DE04260D8CF300A992FE /* PictogramAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A77DE03260D8CF300A992FE /* PictogramAppTests.swift */; };
 		2A77DE0F260D8CF300A992FE /* PictogramAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A77DE0E260D8CF300A992FE /* PictogramAppUITests.swift */; };
+		2A77DE22260D8D4300A992FE /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A77DE21260D8D4300A992FE /* SignInView.swift */; };
+		2A77DE27260D8D7700A992FE /* FormField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A77DE26260D8D7700A992FE /* FormField.swift */; };
+		2A77DE2D260D8DAE00A992FE /* ButtonModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A77DE2C260D8DAE00A992FE /* ButtonModifiers.swift */; };
+		2A77DE38260D939600A992FE /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A77DE37260D939600A992FE /* SignUpView.swift */; };
+		2A77DE3E260DAD1F00A992FE /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A77DE3D260DAD1F00A992FE /* ImagePicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +50,11 @@
 		2A77DE0A260D8CF300A992FE /* PictogramAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PictogramAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A77DE0E260D8CF300A992FE /* PictogramAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictogramAppUITests.swift; sourceTree = "<group>"; };
 		2A77DE10260D8CF300A992FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A77DE21260D8D4300A992FE /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		2A77DE26260D8D7700A992FE /* FormField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormField.swift; sourceTree = "<group>"; };
+		2A77DE2C260D8DAE00A992FE /* ButtonModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonModifiers.swift; sourceTree = "<group>"; };
+		2A77DE37260D939600A992FE /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		2A77DE3D260DAD1F00A992FE /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +105,9 @@
 		2A77DDF0260D8CF100A992FE /* PictogramApp */ = {
 			isa = PBXGroup;
 			children = (
+				2A77DE3C260DAD0D00A992FE /* Utilities */,
+				2A77DE1F260D8D2500A992FE /* Views */,
+				2A77DE20260D8D2B00A992FE /* Components */,
 				2A77DDF1260D8CF100A992FE /* PictogramAppApp.swift */,
 				2A77DDF3260D8CF100A992FE /* ContentView.swift */,
 				2A77DDF5260D8CF300A992FE /* Assets.xcassets */,
@@ -128,6 +141,32 @@
 				2A77DE10260D8CF300A992FE /* Info.plist */,
 			);
 			path = PictogramAppUITests;
+			sourceTree = "<group>";
+		};
+		2A77DE1F260D8D2500A992FE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2A77DE21260D8D4300A992FE /* SignInView.swift */,
+				2A77DE37260D939600A992FE /* SignUpView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2A77DE20260D8D2B00A992FE /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				2A77DE26260D8D7700A992FE /* FormField.swift */,
+				2A77DE2C260D8DAE00A992FE /* ButtonModifiers.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		2A77DE3C260DAD0D00A992FE /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				2A77DE3D260DAD1F00A992FE /* ImagePicker.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,7 +298,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A77DE22260D8D4300A992FE /* SignInView.swift in Sources */,
 				2A77DDF4260D8CF100A992FE /* ContentView.swift in Sources */,
+				2A77DE2D260D8DAE00A992FE /* ButtonModifiers.swift in Sources */,
+				2A77DE3E260DAD1F00A992FE /* ImagePicker.swift in Sources */,
+				2A77DE27260D8D7700A992FE /* FormField.swift in Sources */,
+				2A77DE38260D939600A992FE /* SignUpView.swift in Sources */,
 				2A77DDF2260D8CF100A992FE /* PictogramAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
