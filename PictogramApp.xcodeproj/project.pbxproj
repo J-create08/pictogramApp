@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		12A35991E040328E11D71735 /* Pods_PictogramApp_PictogramAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AAA7E3BA39A7B8373D4ED85 /* Pods_PictogramApp_PictogramAppUITests.framework */; };
 		2A77DDF2260D8CF100A992FE /* PictogramAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A77DDF1260D8CF100A992FE /* PictogramAppApp.swift */; };
 		2A77DDF4260D8CF100A992FE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A77DDF3260D8CF100A992FE /* ContentView.swift */; };
 		2A77DDF6260D8CF300A992FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A77DDF5260D8CF300A992FE /* Assets.xcassets */; };
@@ -18,6 +19,15 @@
 		2A77DE2D260D8DAE00A992FE /* ButtonModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A77DE2C260D8DAE00A992FE /* ButtonModifiers.swift */; };
 		2A77DE38260D939600A992FE /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A77DE37260D939600A992FE /* SignUpView.swift */; };
 		2A77DE3E260DAD1F00A992FE /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A77DE3D260DAD1F00A992FE /* ImagePicker.swift */; };
+		2AF2DB55261A332500F13966 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2AF2DB54261A332400F13966 /* GoogleService-Info.plist */; };
+		2AF2DB56261A332500F13966 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2AF2DB54261A332400F13966 /* GoogleService-Info.plist */; };
+		2AF2DB57261A332500F13966 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2AF2DB54261A332400F13966 /* GoogleService-Info.plist */; };
+		2AF2DB78261A5FB900F13966 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF2DB77261A5FB900F13966 /* UserModel.swift */; };
+		2AF2DB80261A607000F13966 /* Extensions .swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF2DB7F261A607000F13966 /* Extensions .swift */; };
+		2AF2DB86261A855500F13966 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF2DB85261A855500F13966 /* AuthService.swift */; };
+		2AF2DB8F261A856E00F13966 /* StorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF2DB8E261A856E00F13966 /* StorageService.swift */; };
+		7E88DDFCAB8B74DE7CEAC8B0 /* Pods_PictogramApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A94CFCDF3346BB0F49C26905 /* Pods_PictogramApp.framework */; };
+		C9911B2272DE9855BD7F4185 /* Pods_PictogramAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F98AA1B72A1CEB2ABF3D0E4 /* Pods_PictogramAppTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +65,20 @@
 		2A77DE2C260D8DAE00A992FE /* ButtonModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonModifiers.swift; sourceTree = "<group>"; };
 		2A77DE37260D939600A992FE /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 		2A77DE3D260DAD1F00A992FE /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		2AF2DB54261A332400F13966 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2AF2DB77261A5FB900F13966 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		2AF2DB7F261A607000F13966 /* Extensions .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extensions .swift"; sourceTree = "<group>"; };
+		2AF2DB85261A855500F13966 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		2AF2DB8E261A856E00F13966 /* StorageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageService.swift; sourceTree = "<group>"; };
+		2E3E61A8F7B2D84ECD404E30 /* Pods-PictogramApp-PictogramAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PictogramApp-PictogramAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-PictogramApp-PictogramAppUITests/Pods-PictogramApp-PictogramAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		34D8D6FFA9D36D343677D0CC /* Pods-PictogramApp-PictogramAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PictogramApp-PictogramAppUITests.release.xcconfig"; path = "Target Support Files/Pods-PictogramApp-PictogramAppUITests/Pods-PictogramApp-PictogramAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3E8B3244B3AD98EEF2139286 /* Pods-PictogramApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PictogramApp.release.xcconfig"; path = "Target Support Files/Pods-PictogramApp/Pods-PictogramApp.release.xcconfig"; sourceTree = "<group>"; };
+		3F98AA1B72A1CEB2ABF3D0E4 /* Pods_PictogramAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PictogramAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		42C1F881D57887F36D163777 /* Pods-PictogramAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PictogramAppTests.release.xcconfig"; path = "Target Support Files/Pods-PictogramAppTests/Pods-PictogramAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		8F17F6C0EFB599BF3656943A /* Pods-PictogramAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PictogramAppTests.debug.xcconfig"; path = "Target Support Files/Pods-PictogramAppTests/Pods-PictogramAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9AAA7E3BA39A7B8373D4ED85 /* Pods_PictogramApp_PictogramAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PictogramApp_PictogramAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A94CFCDF3346BB0F49C26905 /* Pods_PictogramApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PictogramApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE04FDC3A2711754D4AE7A72 /* Pods-PictogramApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PictogramApp.debug.xcconfig"; path = "Target Support Files/Pods-PictogramApp/Pods-PictogramApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E88DDFCAB8B74DE7CEAC8B0 /* Pods_PictogramApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9911B2272DE9855BD7F4185 /* Pods_PictogramAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12A35991E040328E11D71735 /* Pods_PictogramApp_PictogramAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,6 +116,8 @@
 				2A77DE02260D8CF300A992FE /* PictogramAppTests */,
 				2A77DE0D260D8CF300A992FE /* PictogramAppUITests */,
 				2A77DDEF260D8CF100A992FE /* Products */,
+				9C0D9C1476A2C475C18F398A /* Pods */,
+				B257901CF731D99D630B87C1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +134,9 @@
 		2A77DDF0260D8CF100A992FE /* PictogramApp */ = {
 			isa = PBXGroup;
 			children = (
+				2AF2DB84261A854300F13966 /* Services */,
+				2AF2DB76261A5FA900F13966 /* Models */,
+				2AF2DB54261A332400F13966 /* GoogleService-Info.plist */,
 				2A77DE3C260DAD0D00A992FE /* Utilities */,
 				2A77DE1F260D8D2500A992FE /* Views */,
 				2A77DE20260D8D2B00A992FE /* Components */,
@@ -165,8 +197,49 @@
 			isa = PBXGroup;
 			children = (
 				2A77DE3D260DAD1F00A992FE /* ImagePicker.swift */,
+				2AF2DB7F261A607000F13966 /* Extensions .swift */,
 			);
 			path = Utilities;
+			sourceTree = "<group>";
+		};
+		2AF2DB76261A5FA900F13966 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2AF2DB77261A5FB900F13966 /* UserModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2AF2DB84261A854300F13966 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				2AF2DB85261A855500F13966 /* AuthService.swift */,
+				2AF2DB8E261A856E00F13966 /* StorageService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		9C0D9C1476A2C475C18F398A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FE04FDC3A2711754D4AE7A72 /* Pods-PictogramApp.debug.xcconfig */,
+				3E8B3244B3AD98EEF2139286 /* Pods-PictogramApp.release.xcconfig */,
+				2E3E61A8F7B2D84ECD404E30 /* Pods-PictogramApp-PictogramAppUITests.debug.xcconfig */,
+				34D8D6FFA9D36D343677D0CC /* Pods-PictogramApp-PictogramAppUITests.release.xcconfig */,
+				8F17F6C0EFB599BF3656943A /* Pods-PictogramAppTests.debug.xcconfig */,
+				42C1F881D57887F36D163777 /* Pods-PictogramAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B257901CF731D99D630B87C1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A94CFCDF3346BB0F49C26905 /* Pods_PictogramApp.framework */,
+				9AAA7E3BA39A7B8373D4ED85 /* Pods_PictogramApp_PictogramAppUITests.framework */,
+				3F98AA1B72A1CEB2ABF3D0E4 /* Pods_PictogramAppTests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -176,9 +249,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2A77DE13260D8CF300A992FE /* Build configuration list for PBXNativeTarget "PictogramApp" */;
 			buildPhases = (
+				9D4C5CE1C7C108B9FC5A6BD0 /* [CP] Check Pods Manifest.lock */,
 				2A77DDEA260D8CF100A992FE /* Sources */,
 				2A77DDEB260D8CF100A992FE /* Frameworks */,
 				2A77DDEC260D8CF100A992FE /* Resources */,
+				1446D33BA09614BFBC674E9C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -193,6 +268,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2A77DE16260D8CF300A992FE /* Build configuration list for PBXNativeTarget "PictogramAppTests" */;
 			buildPhases = (
+				F8B90284079E7551A1961750 /* [CP] Check Pods Manifest.lock */,
 				2A77DDFB260D8CF300A992FE /* Sources */,
 				2A77DDFC260D8CF300A992FE /* Frameworks */,
 				2A77DDFD260D8CF300A992FE /* Resources */,
@@ -211,9 +287,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2A77DE19260D8CF300A992FE /* Build configuration list for PBXNativeTarget "PictogramAppUITests" */;
 			buildPhases = (
+				E323883674D581EFEA640008 /* [CP] Check Pods Manifest.lock */,
 				2A77DE06260D8CF300A992FE /* Sources */,
 				2A77DE07260D8CF300A992FE /* Frameworks */,
 				2A77DE08260D8CF300A992FE /* Resources */,
+				1977DDC061CE3EF87120346C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -274,6 +352,7 @@
 			files = (
 				2A77DDF9260D8CF300A992FE /* Preview Assets.xcassets in Resources */,
 				2A77DDF6260D8CF300A992FE /* Assets.xcassets in Resources */,
+				2AF2DB55261A332500F13966 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +360,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2AF2DB56261A332500F13966 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,10 +368,114 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2AF2DB57261A332500F13966 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1446D33BA09614BFBC674E9C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PictogramApp/Pods-PictogramApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PictogramApp/Pods-PictogramApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PictogramApp/Pods-PictogramApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1977DDC061CE3EF87120346C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PictogramApp-PictogramAppUITests/Pods-PictogramApp-PictogramAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PictogramApp-PictogramAppUITests/Pods-PictogramApp-PictogramAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PictogramApp-PictogramAppUITests/Pods-PictogramApp-PictogramAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D4C5CE1C7C108B9FC5A6BD0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PictogramApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E323883674D581EFEA640008 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PictogramApp-PictogramAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8B90284079E7551A1961750 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PictogramAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2A77DDEA260D8CF100A992FE /* Sources */ = {
@@ -300,10 +484,14 @@
 			files = (
 				2A77DE22260D8D4300A992FE /* SignInView.swift in Sources */,
 				2A77DDF4260D8CF100A992FE /* ContentView.swift in Sources */,
+				2AF2DB78261A5FB900F13966 /* UserModel.swift in Sources */,
+				2AF2DB80261A607000F13966 /* Extensions .swift in Sources */,
 				2A77DE2D260D8DAE00A992FE /* ButtonModifiers.swift in Sources */,
 				2A77DE3E260DAD1F00A992FE /* ImagePicker.swift in Sources */,
 				2A77DE27260D8D7700A992FE /* FormField.swift in Sources */,
+				2AF2DB86261A855500F13966 /* AuthService.swift in Sources */,
 				2A77DE38260D939600A992FE /* SignUpView.swift in Sources */,
+				2AF2DB8F261A856E00F13966 /* StorageService.swift in Sources */,
 				2A77DDF2260D8CF100A992FE /* PictogramAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -458,6 +646,7 @@
 		};
 		2A77DE14260D8CF300A992FE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE04FDC3A2711754D4AE7A72 /* Pods-PictogramApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -479,6 +668,7 @@
 		};
 		2A77DE15260D8CF300A992FE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E8B3244B3AD98EEF2139286 /* Pods-PictogramApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -500,6 +690,7 @@
 		};
 		2A77DE17260D8CF300A992FE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F17F6C0EFB599BF3656943A /* Pods-PictogramAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -521,6 +712,7 @@
 		};
 		2A77DE18260D8CF300A992FE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42C1F881D57887F36D163777 /* Pods-PictogramAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -542,6 +734,7 @@
 		};
 		2A77DE1A260D8CF300A992FE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E3E61A8F7B2D84ECD404E30 /* Pods-PictogramApp-PictogramAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -561,6 +754,7 @@
 		};
 		2A77DE1B260D8CF300A992FE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34D8D6FFA9D36D343677D0CC /* Pods-PictogramApp-PictogramAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

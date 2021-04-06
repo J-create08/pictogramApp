@@ -15,8 +15,8 @@ struct ButtonModifiers: ViewModifier {
             .padding()
             .foregroundColor(.white)
             .font(.system(size: 14, weight: .bold))
-            .background(Color.black)
-            .cornerRadius(5.0)
+            .background(LinearGradient(gradient: .init(colors: [.red,.orange]), startPoint: .leading, endPoint: .trailing))
+            .cornerRadius(25)
     }
     
 }

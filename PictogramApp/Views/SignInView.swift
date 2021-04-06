@@ -11,6 +11,7 @@ struct SignInView: View {
     @State private var email : String = ""
     @State private var password : String = ""
     
+        
     var body: some View {
         
         NavigationView {
@@ -27,10 +28,9 @@ struct SignInView: View {
                         Text("Sign In").font(.title)
                             .modifier(ButtonModifiers())
                             .padding()
-                            
-                            
                         
                     }
+                    
                     HStack {
                         Text("New?")
                         NavigationLink(destination: SignUpView()) {

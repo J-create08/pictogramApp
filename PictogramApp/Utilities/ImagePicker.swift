@@ -9,6 +9,8 @@ import Foundation
 import SwiftUI
 
 struct ImagePicker: UIViewControllerRepresentable {
+    
+    
     @Binding var pickedImage: Image?
     @Binding var showImagePicker: Bool
     @Binding var imageData: Data
@@ -25,8 +27,8 @@ struct ImagePicker: UIViewControllerRepresentable {
     }
     
     func updateUIViewController(_ uiViewController: UIImagePickerController, context: Context) {
-        <#code#>
     }
+    
     
     class Coordinator: NSObject, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
         var parent: ImagePicker
