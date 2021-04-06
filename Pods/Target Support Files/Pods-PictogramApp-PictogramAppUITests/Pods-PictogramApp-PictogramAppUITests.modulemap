@@ -1,0 +1,6 @@
+framework module Pods_PictogramApp_PictogramAppUITests {
+  umbrella header "Pods-PictogramApp-PictogramAppUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
