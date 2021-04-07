@@ -40,6 +40,8 @@ struct SignUpView: View {
         self.email = ""
         self.password = ""
         self.username = ""
+        self.imageData = Data()
+        self.profileImage = Image(systemName: "person.circle.fill")
     }
     
     func userSignUp() {

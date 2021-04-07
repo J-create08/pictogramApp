@@ -14,7 +14,7 @@ struct PictogramAppApp: App {
     @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
     var body: some Scene {
         WindowGroup {
-            SignInView()
+            ContentView().environmentObject(SessionStorage())
         }
     }
 }
