@@ -30,8 +30,15 @@ struct PostView: View {
             self.showingAlert = true
             return
         }
-        self.clear()
         //connect upload
+        PostService.uploadPost(caption: text, imageData: imageData, onSuccess: {
+            self.clear()
+        }) {
+            (errorMessage) in
+            self.error = errorMessage
+            self.showingAlert = true
+            return
+        }
     }
     
     func clear() {
